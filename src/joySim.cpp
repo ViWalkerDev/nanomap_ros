@@ -297,7 +297,7 @@ int main(int argc, char * argv[])
   openvdb::initialize();
 
   if(!(argc == 2  || argc ==3)){
-    std::cout << "please provide only the path to main config file for joystick sim OR config path and agent pose topic for sim from published pose" << std::endl;
+    std::cout << "please provide only the path to main config file for joystick sim" << std::endl;
     return 0;
   }
 
