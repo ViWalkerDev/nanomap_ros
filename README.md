@@ -37,7 +37,7 @@ joySim subscribes to /cmd_vel to control the pose of the agent via a joystick
 poseSim subscribes to a user provided topic containing a geometry_msgs/PoseStamped message type. This pose is used to move the agent through the environment. 
    
 ### Server
-The server node provides server capabilities. It subscribes to to a sensor topic, and a pose topic and creates an occupancy map. 
+The server node provides server capabilities. It subscribes to a sensor topic, and a pose topic and creates an occupancy map. 
 
 ## Configuration
 Configuration files are used to control NanoMap functionality. Each sensor needs to be defined by their own sensor.txt file. Agent definitions define sensor position relative to the agents. The main configuration file defines the operational parameters.
