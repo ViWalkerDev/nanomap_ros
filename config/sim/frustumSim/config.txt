@@ -1,0 +1,38 @@
+#config
+SerialUpdate:
+0
+MappingRes:
+0.1
+ProbHitThres:
+0.51
+ProbMissThres:
+0.49
+GridRes:
+0.1
+NodeEdge:
+8
+FrustumAllocationFactor:
+1.0
+LaserAllocationFactor:
+1.0
+FilterType:
+1
+UpdateType:
+0
+ProcessType:
+0
+PrecisionType:
+0
+ExploreType:
+0
+SimType:
+1
+PublishSensor:
+1
+SimGrid:
+%ABSOLUTE PATH TO SIM GRID HERE
+Sensor:
+%ABSOLUTE PATH TO SENSOR CONFIG FILE HERE
+Agent:
+%ABSOLUTE PATH TO AGENT CONFIG FILE HERE
+#endconfig
