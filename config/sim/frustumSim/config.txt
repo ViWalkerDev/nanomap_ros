@@ -12,7 +12,7 @@ NodeEdge:
 FrustumAllocationFactor:
 0.4
 FilterType:
-1
+0
 UpdateType:
 0
 PrecisionType:
